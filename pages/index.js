@@ -6,15 +6,50 @@ export default function Home() {
   return (
       <Layout>
         <div className={styles.main_content}>
-          <h1 className={styles.title}>
-            Dashboard
-          </h1>
+            <div className={styles.main_column}>
+                <div className={styles.card}>
+                    <h2>
+                        Cards
+                    </h2>
+                    <p>
 
-          <h1 className="title">
-            <Link href="/posts/first-post">
-              <a>Go to posts</a>
-            </Link>
-          </h1>
+                    </p>
+                </div>
+                <div className={styles.card}>
+                    <h2>
+                        Transaction history
+                    </h2>
+                    <p>
+
+                    </p>
+                </div>
+            </div>
+            <div className={styles.main_column}>
+                <div className={styles.card}>
+                    <h2>
+                        Goals
+                    </h2>
+                    <p>
+
+                    </p>
+                </div>
+                <div className={styles.card}>
+                    <h2>
+                        Outcome Statistics
+                    </h2>
+                    <p>
+
+                    </p>
+                </div>
+                <div className={styles.card}>
+                    <h2>
+                        New transaction
+                    </h2>
+                    <p>
+
+                    </p>
+                </div>
+            </div>
         </div>
       </Layout>
   )
