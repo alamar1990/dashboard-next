@@ -109,7 +109,7 @@
   Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.card {
+@mixin card {
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
@@ -132,6 +132,13 @@
     line-height: 1;
   }
 }
+
+.card {
+  @include card;
+  width: 95%;
+  height: 150px;
+}
+
 
 .logo {
   height: 1em;

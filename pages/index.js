@@ -1,28 +1,14 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.scss'
 import Layout from "../components/layout/default";
+import CardSection from "../components/cardSection";
 
 export default function Home() {
   return (
       <Layout>
         <div className={styles.main_content}>
             <div className={styles.main_column}>
-                <div className={styles.card}>
-                    <h2>
-                        Cards
-                    </h2>
-                    <p>
-
-                    </p>
-                </div>
-                <div className={styles.card}>
-                    <h2>
-                        Transaction history
-                    </h2>
-                    <p>
-
-                    </p>
-                </div>
+                <CardSection/>
             </div>
             <div className={styles.main_column}>
                 <div className={styles.card}>
