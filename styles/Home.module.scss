@@ -35,7 +35,7 @@
 
 .sidebar {
   display: flex;
-  width: 150px;
+  flex: .15;
   border-right: 1px solid #d9d9d9;
 
   .sidebar_content {
@@ -46,7 +46,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  flex: 1;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -70,10 +70,9 @@
 .main_content {
   height: 100vh;
   display: flex;
-  flex-wrap: wrap;
 
   .main_column {
-    flex: 0 0 50%;
+    flex: 1;
   }
 }
 
