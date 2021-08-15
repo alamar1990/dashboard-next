@@ -135,7 +135,20 @@
 .card {
   @include card;
   width: 95%;
+}
+
+.cardsection {
+  display: flex;
+  flex: 1;
   height: 150px;
+
+  .cardview {
+
+  }
+
+  .carddata {
+
+  }
 }
 
 
